@@ -1,0 +1,10 @@
+{
+	"appId": "com.azkar.dailyapp",
+	"appName": "أذكار الصباح والمساء",
+	"webDir": "www",
+	"bundledWebRuntime": false,
+	"backgroundColor": "#241E45",
+	"android": {
+		"backgroundColor": "#241E45"
+	}
+}
