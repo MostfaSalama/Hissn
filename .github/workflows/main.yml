@@ -20,8 +20,11 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      - name: Make gradlew executable
-        run: chmod +x android/gradlew
+      - name: Check files
+        run: |
+          pwd
+          ls -la
+          ls -la android
 
       - name: Build APK
         working-directory: android
